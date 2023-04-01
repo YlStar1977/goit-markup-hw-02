@@ -38,6 +38,7 @@ ul {
   color: var(--color-iris);
   width: 71px;
   height: 21px;
+  list-style: none;
 }
 .logo-studio {
   color: var(--color-navy-blue);
