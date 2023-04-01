@@ -72,7 +72,11 @@ ul {
 .adress:focus {
   color: var(--color-ocean);
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
 main {
   font-family: var(--primary-front);
   background-color: var(--color-white);
