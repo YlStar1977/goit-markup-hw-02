@@ -51,6 +51,7 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--color-navy-blue);
+  text-decoration: none;
 }
 .heder-nav:hover,
 .heder-nav:focus {
@@ -65,6 +66,7 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--color-slate);
+  text-decoration: none;
 }
 .adress:hover,
 .adress:focus {
@@ -191,7 +193,6 @@ main {
   letter-spacing: 0.03em;
 
   color: var(--color-cloud);
-  text-decoration: none;
 }
 /* Filters */
 .button-filters {
