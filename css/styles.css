@@ -75,7 +75,11 @@
 .address:focus {
   color: var(--color-ocean);
 }
-
+body {
+  font-family: var(--primary-front);
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
 main {
   font-family: var(--primary-front);
   color: var(--color-slate);
