@@ -127,7 +127,6 @@ main {
   font-size: 36px;
   line-height: 1.11;
 
-  text-align: center;
   letter-spacing: 0.02em;
 
   color: var(--color-navy-blue) #2e2f42;
@@ -196,7 +195,6 @@ main {
 }
 /* Filters */
 .button-filters {
-  font-family: var(--primary-front);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -214,7 +212,6 @@ main {
 }
 /* Row 1 2 3 */
 .title-row {
-  font-family: var(--primary-front);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -224,7 +221,6 @@ main {
   color: var(--color-navy-blue);
 }
 .text-row {
-  font-family: var(--primary-front);
   font-size: 16px;
   line-height: 1.5;
 
