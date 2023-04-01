@@ -78,11 +78,7 @@ ul {
 .adress:focus {
   color: var(--color-ocean);
 }
-body {
-  font-family: var(--primary-front);
-  color: var(--color-slate);
-  background-color: var(--color-white);
-}
+
 main {
   font-family: var(--primary-front);
   background-color: var(--color-white);
@@ -203,6 +199,7 @@ main {
 }
 /* Filters */
 .button-filters {
+  font-family: var(--primary-front);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -222,6 +219,7 @@ main {
 }
 /* Row 1 2 3 */
 .title-row {
+  font-family: var(--primary-front);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -231,6 +229,7 @@ main {
   color: var(--color-navy-blue);
 }
 .text-row {
+  font-family: var(--primary-front);
   font-size: 16px;
   line-height: 1.5;
 
