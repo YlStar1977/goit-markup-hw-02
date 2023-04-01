@@ -204,6 +204,7 @@ main {
 
   color: var(--color-iris);
   background: var(--color-cloud);
+  text-decoration: none;
 }
 
 .button-filters:active,
