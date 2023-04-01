@@ -26,7 +26,6 @@ ul {
 
 .logo {
   font-family: var(--logo-font);
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -146,7 +145,6 @@ main {
   font-size: 36px;
   line-height: 1.11;
 
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-navy-bluel);
 }
@@ -208,9 +206,7 @@ main {
   color: var(--color-iris);
   background: var(--color-cloud);
 }
-.button-filters {
-  cursor: pointer;
-}
+
 .button-filters:active,
 .button-filters:focus {
   background: var(--color-ocean);
