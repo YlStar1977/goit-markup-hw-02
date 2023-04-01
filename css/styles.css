@@ -73,7 +73,7 @@ ul {
   color: var(--color-ocean);
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-front);
   color: var(--color-slate);
   background-color: var(--color-white);
 }
