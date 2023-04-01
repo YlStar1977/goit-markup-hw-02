@@ -16,14 +16,10 @@
   --primary-front: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
 }
-ul {
-  list-style: none;
-  text-decoration: none;
-}
 
 /* Top line header*/
 /* logo  */
-.link {
+.logo {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
@@ -55,14 +51,17 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--color-navy-blue);
-  text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .heder-nav:hover,
 .heder-nav:focus {
   color: var(--color-ocean);
 }
-.adress {
+.address {
   font-family: var(--primary-front);
 
   font-size: 16px;
@@ -71,10 +70,9 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--color-slate);
-  text-decoration: none;
 }
-.adress:hover,
-.adress:focus {
+.address:hover,
+.address:focus {
   color: var(--color-ocean);
 }
 body {
@@ -104,7 +102,6 @@ main {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background: var(--color-iris);
-  text-decoration: none;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -182,7 +179,7 @@ main {
 
   color: var(--color-cloud);
 }
-.footer-backgroun-color {
+.footer {
   width: 1440px;
   height: 312px;
   left: 0px;
