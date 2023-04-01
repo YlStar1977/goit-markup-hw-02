@@ -18,11 +18,12 @@
 }
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 /* Top line header*/
-
-.logo {
+/* logo  */
+.link {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
@@ -36,11 +37,14 @@ ul {
   color: var(--color-iris);
   width: 71px;
   height: 21px;
+}
+.link {
   text-decoration: none;
 }
 .logo-studio {
   color: var(--color-navy-blue);
 }
+
 .heder-nav {
   font-family: var(--primary-front);
 
@@ -53,6 +57,7 @@ ul {
   color: var(--color-navy-blue);
   text-decoration: none;
 }
+
 .heder-nav:hover,
 .heder-nav:focus {
   color: var(--color-ocean);
@@ -99,6 +104,7 @@ main {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background: var(--color-iris);
+  text-decoration: none;
 }
 .hero-button:hover,
 .hero-button:focus {
