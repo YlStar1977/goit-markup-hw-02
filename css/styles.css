@@ -16,10 +16,8 @@
   --primary-front: "Roboto", sans-serif;
   --logo-font: "Raleway", sans-serif;
 }
-a,
 ul {
   list-style: none;
-  text-decoration: none;
 }
 
 /* Top line header*/
@@ -38,7 +36,7 @@ ul {
   color: var(--color-iris);
   width: 71px;
   height: 21px;
-  list-style: none;
+  text-decoration: none;
 }
 .logo-studio {
   color: var(--color-navy-blue);
@@ -193,6 +191,7 @@ main {
   letter-spacing: 0.03em;
 
   color: var(--color-cloud);
+  text-decoration: none;
 }
 /* Filters */
 .button-filters {
