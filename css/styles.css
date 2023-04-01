@@ -1,213 +1,240 @@
+:root {
+  /* color  */
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  /* TYPE  */
+  --primary-front: "Roboto", sans-serif;
+  --logo-font: "Roboto", sans-serif;
+}
 a,
 ul {
   list-style: none;
   text-decoration: none;
 }
 
-body {
-  font-family: "Roboto";
-}
-main {
-  font-family: "Roboto";
-}
 /* Top line header*/
 
-.style-logo {
-  font-family: "Raleway";
+.logo {
+  font-family: var(--logo-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-
+  line-height: 1.16;
+  display: flex;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 44px;
+  height: 21px;
 
-  color: #4d5ae5;
+  color: var(--color-iris);
+  width: 71px;
+  height: 21px;
+  list-style: none;
+  text-decoration: none;
 }
-.style-logo-studio {
-  color: #2e2f42;
+.logo-studio {
+  color: var(--color-grey);
 }
-.style-heder-nav {
-  font-family: "Roboto";
-  font-style: normal;
+.heder-nav {
+  font-family: var(--primary-front);
+
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-grey);
+  list-style: none;
+  text-decoration: none;
 }
-.style-heder-nav:hover,
-.style-heder-nav:focus {
-  color: #404bbf;
+.heder-nav:hover,
+.heder-nav:focus {
+  color: var(--color-ocean);
 }
-.style-adress {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.adress {
+  font-family: var(--primary-front);
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--color-slate);
+  list-style: none;
+  text-decoration: none;
 }
-.style-adress:hover,
-.style-adress:focus {
-  color: #404bbf;
+.adress:hover,
+.adress:focus {
+  color: var(--color-ocean);
+}
+body {
+  font-family: var(--primary-front);
+  color: var(--color-slate);
+  background-color: var(--color-white);
+}
+main {
+  font-family: var(--primary-front);
+  background-color: var(--color-white);
 }
 /* Hero image */
-.style-hero-section {
-  font-style: normal;
-  color: #ffffff;
-  background: #2e2f42;
+.hero-section {
+  color: var(--color-white);
+  background: var(--color-grey);
 }
-.style-hero-title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.style-hero-button {
+.hero-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--color-white);
+  background: var(--color-iris);
 }
-.style-hero-button:hover,
-.style-hero-button:focus {
-  background-color: #404bbf;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-ocean);
 }
 /* Section-1 */
-.style-section-title {
-  font-style: normal;
+.section-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
-.style-section-text {
+.section-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--color-slate);
 }
 /* Section 2 */
 .title-style {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-navy-blue) #2e2f42;
 }
 
 /* Section 3 */
 .backgroun-color-section {
-  background: #f4f4fd;
+  background: var(--color-cloud);
+}
+.backgroun-color-card {
+  background-color: var(--color-white);
 }
 .title-style-section {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
 }
 .title-style-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 .text-style-section {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--color-slate);
 }
+
 /* Footer */
-.style-text-footer {
-  font-family: "Roboto";
+.text-footer {
+  font-family: var(--logo-font);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
-.style-backgroun-color {
+.footer-backgroun-color {
   width: 1440px;
   height: 312px;
   left: 0px;
   top: 2280px;
 
-  background: #2e2f42;
+  background: var(--color-navy-blue);
 }
-.style-logo-studio-footer {
-  font-family: "Raleway";
-  font-style: normal;
+.logo-studio-footer {
+  font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
 
   letter-spacing: 0.03em;
 
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 /* Filters */
-.style-button-filters {
-  font-style: normal;
+.button-filters {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.04em;
 
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--color-iris);
+  background: var(--color-cloud);
 }
-.style-button-filters {
+.button-filters {
   cursor: pointer;
 }
-.style-button-filters:active,
-.style-button-filters:focus {
-  background: #404bbf;
-  color: #ffffff;
+.button-filters:active,
+.button-filters:focus {
+  background: var(--color-ocean);
+  color: var(--color-white);
 }
 /* Row 1 2 3 */
-.style-title-row {
-  font-style: normal;
+.title-row {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
-.style-text-row {
+.text-row {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
-  color: #434455;
+  color: var(--color-slate);
 }
