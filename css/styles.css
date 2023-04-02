@@ -80,11 +80,7 @@ body {
   color: var(--color-slate);
   background-color: var(--color-white);
 }
-main {
-  font-family: var(--primary-front);
-  color: var(--color-slate);
-  background-color: var(--color-white);
-}
+
 /* Hero image */
 .hero-section {
   color: var(--color-white);
@@ -211,10 +207,11 @@ main {
   text-decoration: none;
 }
 
-.button-filters:active,
+.button-filters:hover,
 .button-filters:focus {
   background: var(--color-ocean);
   color: var(--color-white);
+  cursor: pointer;
 }
 /* Row 1 2 3 */
 .title-row {
