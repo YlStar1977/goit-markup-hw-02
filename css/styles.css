@@ -24,6 +24,8 @@
 }
 body {
   font-family: var(--primary-front);
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 /* Top line header*/
 /* logo  */
