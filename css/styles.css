@@ -22,7 +22,9 @@
 .list {
   list-style: none;
 }
-
+body {
+  font-family: var(--primary-front);
+}
 /* Top line header*/
 /* logo  */
 .logo {
@@ -75,16 +77,10 @@
 .address:focus {
   color: var(--color-ocean);
 }
-body {
-  font-family: var(--primary-front);
-  color: var(--color-slate);
-  background-color: var(--color-white);
-}
 
 /* Hero image */
 .hero-section {
-  color: var(--color-white);
-  background: var(--color-grey);
+  background: var(--color-navy-blue);
 }
 .hero-title {
   font-weight: 700;
@@ -92,13 +88,15 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--color-white);
 }
 .hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  display: flex;
+  align-items: center;
   color: var(--color-white);
   background: var(--color-iris);
 }
@@ -115,7 +113,7 @@ body {
 
   letter-spacing: 0.02em;
 
-  color: var(--color-navy-bluel);
+  color: var(--color-navy-blue);
 }
 .section-text {
   font-size: 16px;
@@ -135,7 +133,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 
-  color: var(--color-navy-blue) #2e2f42;
+  color: var(--color-navy-blue);
 }
 
 /* Section 3 */
@@ -153,7 +151,7 @@ body {
   text-transform: capitalize;
 
   letter-spacing: 0.02em;
-  color: var(--color-navy-bluel);
+  color: var(--color-navy-blue);
 }
 .title-style-name {
   font-weight: 500;
@@ -161,14 +159,16 @@ body {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
+  text-align: center;
 
-  color: var(--color-navy-bluel);
+  color: var(--color-navy-blue);
 }
 .text-style-section {
   font-size: 16px;
   line-height: 1.5;
 
   letter-spacing: 0.02em;
+  text-align: center;
 
   color: var(--color-slate);
 }
@@ -202,7 +202,7 @@ body {
   color: var(--color-cloud);
 }
 /* Filters */
-.button-filters {
+.filters {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -214,8 +214,8 @@ body {
   text-decoration: none;
 }
 
-.button-filters:hover,
-.button-filters:focus {
+.filters:hover,
+.filters:focus {
   background: var(--color-ocean);
   color: var(--color-white);
   cursor: pointer;
